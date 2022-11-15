@@ -4,9 +4,9 @@ import Image from 'next/image'
 
 export default function Card() {
 	return (
-		<div class="w-full rounded-lg border shadow-md bg-gray-800 border-gray-700 p-5 py-3 flex-shrink-0 snap-start">
+		<div class="w-[250px] sm:w-[350px] rounded-lg border shadow-md bg-gray-800 border-gray-700 p-5 py-3 flex-shrink-0 snap-start mt-2">
 			<div className="h-[300px] rounded-[15px] overflow-hidden">
-				<Image src={stray} alt="fondo" className="w-full h-full" />
+				<Image src={stray} alt="fondo" className="w-full h-full object-cover" />
 			</div>
 			<div class="py-5">
 				<h5 class="mb-2 text-2xl font-bold tracking-tight text-white">

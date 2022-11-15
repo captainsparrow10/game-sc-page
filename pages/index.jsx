@@ -8,8 +8,8 @@ import Contactenos from '../components/Home/Contactenos'
 export default function index() {
 	return (
 		<div className="bg-[#39289F] text-white z-0">
-			<Header />
-			<main className="px-[30px] mt-[60px] overflow-y-flow">
+			<main className="px-[15px] sm:px-[30px] md:px-[40px] lg:px-[55px]">
+				<Header />
 				<Presentacion />
 				<Capitulos />
 				<SobreNosotros />
