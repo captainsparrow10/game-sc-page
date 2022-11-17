@@ -1,4 +1,5 @@
 import React from 'react'
+import indiceCapitulos from '../../utils/IndiceCapitulos'
 
 import Card from '../Card'
 export default function Capitulos() {
@@ -11,9 +12,9 @@ export default function Capitulos() {
 					Ver todo
 				</button>
 			</div>
-			<div className='flex  overflow-hidden overflow-x-scroll space-x-6 snap-x snap-mandatory'>
-				{cards.map((card) => (
-					<Card key={card} />
+			<div className="flex  overflow-hidden overflow-x-scroll space-x-6 snap-x snap-mandatory">
+				{indiceCapitulos.map((card) => (
+					<Card key={card} title={card.title} />
 				))}
 			</div>
 		</div>
