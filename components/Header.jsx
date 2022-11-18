@@ -1,6 +1,7 @@
+import Image from 'next/image'
 import React, { useState } from 'react'
 import { MenuClose, MenuOpen } from '../assets/icons/icons'
-
+import logo from '../assets/icons/logo.svg'
 export default function Header() {
 	const [Open, setOpen] = useState(false)
 	const handleClick = () => setOpen(!Open)
@@ -8,7 +9,10 @@ export default function Header() {
 	return (
 		<header className="flex flex-col w-full sticky top-0 z-20 bg-[#39289F] py-[10px] md:py-[20px]">
 			<div className="flex justify-between items-center ">
-				<h1 className="text-2xl md:w-1/2">Logo</h1>
+				<div className="text-2xl md:w-1/2 flex space-x-3">
+					<Image src={logo} alt="logo" className="h-[40px] w-[40px]" />
+					<h1 className="hidden sm:inline-flex">Gamers</h1>
+				</div>
 				<div className=" justify-between hidden md:inline-flex md:w-1/2 text-md lg:text-xl">
 					<h2>Home</h2>
 					<h2>Sobre nosotros</h2>
