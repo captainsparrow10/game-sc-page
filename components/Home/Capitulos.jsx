@@ -6,7 +6,7 @@ import Card from '../Card'
 export default function Capitulos() {
 	const router = useRouter()
 	const verIndice = () => {
-		router.push('/libro/#indice')
+		router.push('/libro')
 	}
 	return (
 		<div

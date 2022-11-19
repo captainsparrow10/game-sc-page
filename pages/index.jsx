@@ -11,12 +11,9 @@ export default function index() {
 			<Header />
 			<main className="px-[15px] sm:px-[30px] md:px-[40px] lg:px-[55px]">
 				<Presentacion />
-
 				<Capitulos />
-
 				<SobreNosotros />
 			</main>
-
 			<Contactenos />
 		</div>
 	)

@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Capitulo5() {
 	return (
-		<section className="min-h-screen space-y-10 pt-28" id='capitulo5'>
+		<section className="min-h-screen space-y-10 pt-16" id='capitulo5'>
 			<h1 className="text-[40px] font-bold">
 				Beneficios y consecuencias de los videojuegos
 			</h1>
