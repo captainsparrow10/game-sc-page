@@ -3,7 +3,7 @@ import React from 'react'
 import logo from '../../assets/icons/logo.svg'
 export default function Contactenos() {
 	return (
-		<div className="flex flex-col justify-between bg-[#070707] p-5 space-y-5 after:px-[15px] sm:px-[30px] md:px-[40px] lg:px-[55px]">
+		<div className="flex flex-col justify-between bg-[#070707] p-5 space-y-5 w-full px-[15px] sm:px-[30px] md:px-[40px] lg:px-[55px]">
 			<div className="flex justify-between">
 				<div className="flex flex-col space-y-3">
 					<Image src={logo} alt="logo" className="h-[40px] w-[40px]" />
