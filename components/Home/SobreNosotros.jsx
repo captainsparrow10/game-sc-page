@@ -17,7 +17,7 @@ export default function SobreNosotros() {
 					<div className="h-[300px] rounded-lg overflow-hidden lg:w-1/3">
 						<Image src={team} alt="fondo" className="w-full h-full" />
 					</div>
-					<div className=" lg:w-1/3 lg:h-full lg:space-y-5">
+					<div className=" lg:w-1/3 lg:h-full space-y-5">
 						<h1 className="text-2xl font-bold tracking-tight">Gamers</h1>
 						<p className="text-[15px] font-[400] text-gray-400">
 							Lorem ipsum dolor, sit amet consectetur adipisicing elit.

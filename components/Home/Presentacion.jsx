@@ -24,7 +24,7 @@ export default function Presentacion() {
 			<Image
 				src={presentacion}
 				alt="fondo"
-				className="h-full w-full lg:w-1/2"
+				className="h-full w-full md:w-[400px] xl:w-[500px]"
 			/>
 		</div>
 	)

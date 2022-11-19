@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components{
+  .scroll{
+    @apply overflow-y-scroll  scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#d97000]/80 md:px-5
+  }
+}

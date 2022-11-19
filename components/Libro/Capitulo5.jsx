@@ -1,13 +1,14 @@
+import Image from 'next/image'
 import React from 'react'
-
+import profile from '../../assets/imgs/profile.svg'
 export default function Capitulo5() {
 	return (
-		<section className="min-h-screen space-y-10 pt-16" id='capitulo5'>
+		<section className="min-h-screen space-y-10 pt-16" id="capitulo5">
 			<h1 className="text-[40px] font-bold">
 				Beneficios y consecuencias de los videojuegos
 			</h1>
 			<div className="space-y-5">
-				<h2 className="text-[30px] font-bold">Introduccion</h2>
+				<h2 className="text-[30px] font-bold">Introducción</h2>
 				<div className="space-y-5">
 					<p>
 						Los videojuegos existen por y para satisfacer a las personas, en su
@@ -44,9 +45,7 @@ export default function Capitulo5() {
 				</div>
 			</div>
 			<div className="space-y-5">
-				<h2 className="text-[30px] font-bold">
-					Desarroollo de las desventajas
-				</h2>
+				<h2 className="text-[30px] font-bold">Desarrollo de las desventajas</h2>
 				<div className="space-y-5">
 					<p>
 						Ya que sigues por aquí déjame contarte un poco mas sobre todo esto,
@@ -147,6 +146,27 @@ export default function Capitulo5() {
 						pregunta es mejor cambiarla y preguntarte, ¿cómo quieres que
 						influyan en tu vida?
 					</p>
+				</div>
+			</div>
+			<div className="flex flex-col space-y-5">
+				<h1>Autores</h1>
+				<div className="flex flex-col md:flex-row md:space-x-5">
+					<div className="flex space-x-3 items-center">
+						<Image
+							src={profile}
+							alt="profile"
+							className="h-[40px] w-[40px] rounded-full bg-white"
+						/>
+						<h3 className="text-gray-300">Kevin Calderon</h3>
+					</div>
+					<div className="flex space-x-3 items-center">
+						<Image
+							src={profile}
+							alt="profile"
+							className="h-[40px] w-[40px] rounded-full bg-white"
+						/>
+						<h3 className="text-gray-300">Jesus Barria</h3>
+					</div>
 				</div>
 			</div>
 		</section>

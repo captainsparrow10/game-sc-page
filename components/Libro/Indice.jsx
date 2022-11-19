@@ -5,7 +5,7 @@ import indiceCapitulos from '../../utils/IndiceCapitulos'
 export default function Indice() {
 	return (
 		<div
-			className=" pt-16 md:w-2/6 xl:w-1/6"
+			className="pt-16 md:w-2/6 xl:w-1/6 md:scroll"
 			id="indice"
 		>
 			<div className="space-y-5">

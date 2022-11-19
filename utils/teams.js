@@ -21,7 +21,7 @@ const participantes = [
     titulo: "Capítulo 2:  Pioneros del desarrollo de videojuegos en Panamá",
     integrantes: [
       {
-        name: "irvin Ortiz",
+        name: "Irvin Ortiz",
         position: "Lider",
         img: icono1
       },

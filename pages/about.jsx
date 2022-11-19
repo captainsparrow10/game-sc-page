@@ -12,7 +12,7 @@ export default function about() {
 				<h1 className="text-[50px] fond-bold">Team</h1>
 				{participantes.map((participante) => (
 					<div className="space-y-5" key={participante.titulo}>
-						<h2 className="text-[20px] fond-bold">{participante.titulo}</h2>
+						<h2 className="text-[24px] fond-bold">{participante.titulo}</h2>
 						<div className="flex w-full  overflow-y-hidden overflow-x-scroll space-x-6 snap-x snap-mandatory scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#d97000]/80">
 							{participante.integrantes.map((card) => (
 								<CardTeam
