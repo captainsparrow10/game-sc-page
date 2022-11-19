@@ -12,7 +12,7 @@ export default function Capitulos() {
 					Ver todo
 				</button>
 			</div>
-			<div className="flex  overflow-hidden overflow-x-scroll space-x-6 snap-x snap-mandatory scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#d97000]/80">
+			<div className="flex  overflow-y-hidden overflow-x-scroll space-x-6 snap-x snap-mandatory scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#d97000]/80">
 				{indiceCapitulos.map((card) => (
 					<Card key={card} title={card.title} />
 				))}

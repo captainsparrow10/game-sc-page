@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 export default function Card({ title, description }) {
 	return (
-		<Link className="mb-5" href="/libro">
+		<Link href="/libro" className='mb-5'>
 			<div class="w-[250px] sm:w-[350px] h-[550px] sm:h-[600px] rounded-lg border shadow-md bg-gray-800 border-gray-700 p-5 flex-shrink-0 snap-start ">
 				<div className="h-[300px] rounded-[15px] overflow-hidden">
 					<Image
