@@ -8,7 +8,7 @@ import Capitulo6 from './Capitulo6'
 import Capitulo7 from './Capitulo7'
 export default function Capitulos() {
 	return (
-		<div className="space-y-10">
+		<div className="space-y-10 md:w-4/6 xl:w-5/6  scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#d97000]/80 md:px-5 xl:px-10">
 			<Capitulo1 />
 			<Capitulo2 />
 			<Capitulo3 />

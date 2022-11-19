@@ -1,7 +1,12 @@
 import Image from 'next/image'
+import { useRouter } from 'next/router'
 import React from 'react'
 import team from '../../assets/imgs/team.svg'
 export default function SobreNosotros() {
+	const router = useRouter()
+	const aboutRouter =() =>{
+		router.push('/about')
+	}
 	return (
 		<div className="flex flex-col min-h-screen justify-center">
 			<div className="flex justify-between items-center">
@@ -20,7 +25,7 @@ export default function SobreNosotros() {
 							omnis facere illo velit sint repellat, expedita nihil quas quod
 							sed, laborum consequatur.
 						</p>
-						<button className="w-full h-[50px] bg-white/10 hover:bg-white/30 rounded-[10px] text-[15px] font-[400] sm:w-2/5">
+						<button className="w-full h-[50px] bg-white/10 hover:bg-white/30 rounded-[10px] text-[15px] font-[400] sm:w-2/5" onClick={() => aboutRouter()}>
 							Leer mas
 						</button>
 					</div>
