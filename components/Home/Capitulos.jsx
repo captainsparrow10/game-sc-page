@@ -14,7 +14,7 @@ export default function Capitulos() {
 			id="capitulos"
 		>
 			<div className="flex justify-between items-center">
-				<h1 className="text-4xl font-[500]">Capitulos</h1>
+				<h3>Capitulos</h3>
 				<button
 					className="w-[80px] h-[50px] bg-white/10 hover:bg-white/30 rounded-[10px] text-[16px] font-[400]"
 					onClick={() => verIndice()}

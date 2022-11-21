@@ -8,15 +8,15 @@ export default function Header() {
 				<div className="text-2xl md:w-1/2 ">
 					<Link className="flex space-x-3 w-max " href="/">
 						<Image src={logo} alt="logo" className="h-[40px] w-[40px]" />
-						<h1 className="hidden sm:inline-flex">Gamers</h1>
+						<h3 className="hidden sm:inline-flex">Gamers</h3>
 					</Link>
 				</div>
 				<div className=" justify-evenly hidden md:inline-flex md:w-1/3 text-md lg:text-xl">
 					<Link className="flex  w-max " href="/libro">
-						<h2>Libro</h2>
+						<h5>Libro</h5>
 					</Link>
 					<Link className="flex  w-max " href="/about">
-						<h2>Sobre nosotros</h2>
+						<h5>Sobre nosotros</h5>
 					</Link>
 				</div>
 			</div>

@@ -15,10 +15,10 @@ export default function Card({ title, description, link }) {
 				<Image src={stray} alt="fondo" className="w-full h-full object-cover" />
 			</div>
 			<div class="py-5">
-				<h5 class="mb-2 text-[18px] font-bold tracking-tight text-white">
+				<h5 class="mb-2 tracking-tight text-white">
 					{title || 'Titulo del capitulo'}
 				</h5>
-				<p class="mb-3 font-normal text-gray-400 hidden md:inline-flex text-sm">
+				<p class="mb-3 text-gray-400 hidden md:inline-flex">
 					{description ||
 						'Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order'}
 				</p>
