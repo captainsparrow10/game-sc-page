@@ -7,7 +7,7 @@ import { useRouter } from 'next/router'
 export default function Card({ title, link }) {
 	const router = useRouter()
 	const capRouter = (link) => {
-		router.push(`/${link}`)
+		router.push(`${link}`)
 	}
 	return (
 		<div class="w-[250px] sm:w-[350px] max-h-[600px] rounded-lg border shadow-md bg-gray-800 border-gray-700 p-5 flex-shrink-0 snap-start mb-5">

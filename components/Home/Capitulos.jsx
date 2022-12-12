@@ -6,7 +6,9 @@ import Card from '../Card'
 export default function Capitulos() {
 	const router = useRouter()
 	const verIndice = () => {
-		router.push('/Capitulos')
+		router.push(
+			'https://drive.google.com/file/d/1_iDx_jU2uK6lKlNjEkLayG5pLQey4o7P/view?usp=sharing'
+		)
 	}
 	return (
 		<div

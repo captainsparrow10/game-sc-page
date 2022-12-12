@@ -12,7 +12,10 @@ export default function Header() {
 					</Link>
 				</div>
 				<div className=" justify-evenly hidden md:inline-flex md:w-1/3 text-md lg:text-xl">
-					<Link className="flex  w-max " href="/Capitulos">
+					<Link
+						className="flex  w-max "
+						href="https://drive.google.com/file/d/1_iDx_jU2uK6lKlNjEkLayG5pLQey4o7P/view?usp=sharing"
+					>
 						<h5>Libro</h5>
 					</Link>
 					<Link className="flex  w-max " href="/about">
