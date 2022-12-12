@@ -12,7 +12,7 @@ export default function Header() {
 					</Link>
 				</div>
 				<div className=" justify-evenly hidden md:inline-flex md:w-1/3 text-md lg:text-xl">
-					<Link className="flex  w-max " href="/libro">
+					<Link className="flex  w-max " href="/Capitulos">
 						<h5>Libro</h5>
 					</Link>
 					<Link className="flex  w-max " href="/about">

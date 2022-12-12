@@ -120,7 +120,21 @@ const participantes = [
         name: "Cesar Pity",
         position: "Asistente",
         img: icono1
-      },
+      }, {
+        name: "Fernando Garcia",
+        position: "Asistente",
+        img: icono1
+      }
+    ]
+  },
+  {
+    titulo: "Diseñador de la Pagina",
+    integrantes: [
+      {
+        name: "Javier Acosta",
+        position: "Lider",
+        img: icono1
+      }
     ]
   }
 ]

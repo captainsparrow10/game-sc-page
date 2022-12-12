@@ -1,23 +1,33 @@
 {
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
-  "dependencies": {
-    "next": "latest",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
-  },
-  "devDependencies": {
-    "@types/node": "18.11.3",
-    "@types/react": "18.0.21",
-    "@types/react-dom": "18.0.6",
-    "autoprefixer": "^10.4.12",
-    "postcss": "^8.4.18",
-    "tailwind-scrollbar": "^2.0.1",
-    "tailwindcss": "^3.2.1",
-    "typescript": "4.8.4"
-  }
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"postinstall": "npm run download-webviewer",
+		"download-webviewer": "npx @pdftron/webviewer-downloader --webviewerLocation ./public/webviewer/lib"
+	},
+	"dependencies": {
+		"@babel/runtime": "^7.20.6",
+		"@pdftron/webviewer": "^8.10.0",
+		"@react-pdf-viewer/core": "3.9.0",
+		"@react-pdf-viewer/default-layout": "^3.9.0",
+		"@react-pdf/renderer": "^3.0.1",
+		"next": "latest",
+		"pdfjs-dist": "3.1.81",
+		"pspdfkit": "^2022.5.2",
+		"react": "18.2.0",
+		"react-dom": "18.2.0",
+		"react-pdf": "^6.2.0"
+	},
+	"devDependencies": {
+		"@types/node": "18.11.3",
+		"@types/react": "18.0.21",
+		"@types/react-dom": "18.0.6",
+		"autoprefixer": "^10.4.12",
+		"postcss": "^8.4.18",
+		"tailwind-scrollbar": "^2.0.1",
+		"tailwindcss": "^3.2.1",
+		"typescript": "4.8.4"
+	}
 }

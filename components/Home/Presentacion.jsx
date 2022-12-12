@@ -8,7 +8,7 @@ export default function Presentacion() {
 		<div className="flex flex-col min-h-screen lg:flex-row justify-center items-center lg:justify-evenly space-y-10 lg:space-y-0">
 			<div className="mt-2 lg:mt-0 lg:w-[400px]">
 				<div className="space-y-5 mb-5">
-					<h1>Video juegos en Panama</h1>
+					<h1>Desarrollo de Video juegos en Panama</h1>
 					<p className=" text-gray-400">
 						Mas que solo juegos, una parte escencia de nosotros... es parte de
 						nuestra historia

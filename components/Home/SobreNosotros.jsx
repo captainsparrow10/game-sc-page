@@ -20,10 +20,7 @@ export default function SobreNosotros() {
 					<div className=" lg:w-1/3 lg:h-full space-y-5">
 						<h1 className="text-2xl font-bold tracking-tight">Gamers</h1>
 						<p className=" text-gray-400">
-							Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-							Recusandae nam error velit modi ducimus quos accusantium. Eos
-							omnis facere illo velit sint repellat, expedita nihil quas quod
-							sed, laborum consequatur.
+							Somos los responsable del desarrollo del libro que ha dado un poco de la historia de los videojuegos en Panamá. Si quieres conocer acerca de nosotros...
 						</p>
 						<button
 							className="w-full h-[50px] bg-white/10 hover:bg-white/30 rounded-[10px] text-[15px] font-[400] sm:w-2/5"
