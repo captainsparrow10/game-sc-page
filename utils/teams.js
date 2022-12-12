@@ -28,7 +28,7 @@ const participantes = [
     ]
   },
   {
-    titulo: "Capítulo 3:  Pioneros del desarrollo de videojuegos en Panamá",
+    titulo: "Capítulo 3:  Game Jam",
     integrantes: [
       {
         name: "Amir Arosemena",
@@ -128,10 +128,20 @@ const participantes = [
     ]
   },
   {
-    titulo: "Diseñador de la Pagina",
+    titulo: "Pagina web",
     integrantes: [
       {
         name: "Javier Acosta",
+        position: "Lider",
+        img: icono1
+      }
+    ]
+  },
+  {
+    titulo: "Edicion de video",
+    integrantes: [
+      {
+        name: "Kevin li",
         position: "Lider",
         img: icono1
       }

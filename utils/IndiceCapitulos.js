@@ -34,6 +34,10 @@ const indiceCapitulos = [
     title: "Capítulo 7: El futuro del desarrollo de videojuegos en Panamá",
 
   },
+  {
+    link: "https://drive.google.com/file/d/1tYz6X5KkahFJS07Qat-onRfOLCYeEQ3M/view?usp=sharing",
+    title: "Repositorio - Libro de videojuegos"
+  }
 ]
 
 export default indiceCapitulos
